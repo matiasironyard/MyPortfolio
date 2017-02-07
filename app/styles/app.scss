@@ -1,0 +1,245 @@
+
+// Bootstrap Variables
+$icon-font-path: '../../node_modules/bootstrap-sass/assets/fonts/bootstrap/';
+
+// Import Bootstrap
+@import '../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+// img {
+//   max-width: 100%;
+// }
+//####### GENERAL ######//
+body{
+//   /* The image used */
+// background-image: url("../images/mackbook-coffee.jpg");
+//
+// /* Full height */
+// height: 100%;
+//
+// /* Create the parallax scrolling effect */
+// background-attachment: fixed;
+// background-position: center;
+// background-repeat: no-repeat;
+// background-size: cover;
+}
+
+#nav-link:hover{
+  text-decoration: none;
+  color: #FFCA28;
+  background-color: #DD2C00;
+}
+
+.link{
+  color: #DD2C00;
+  font-weight: bold;
+}
+.link:hover{
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.name{
+  text-transform: uppercase;
+}
+.headings{
+  color: #FFCA28;
+  // text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
+  padding-bottom: 20px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.6);
+
+}
+#primary-text{
+  line-height: 2;
+  opacity: .87;
+  font-size: 120%;
+}
+#secondary-text{
+  line-height: 1.5;
+  opacity: .54;
+  font-size: 110%;
+}
+
+//####### NAV ##########//
+.nav-wrapper{
+  // background-color: #424242;
+  font-family: 'Raleway', sans-serif;
+  .brand-logo{
+    font-size: 20px;
+    margin-left: 15px;
+    #logo-first{
+      color: #FFCA28;
+    }
+  }
+}
+//####### HEADER ##########//
+
+#header-row{
+  position: relative;
+  top: 30%;
+  text-shadow: 1px 1px  2px #000;
+  font-family: 'Raleway', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  #header-first{
+    color: #FFCA28;
+  }
+  #header-last{
+    color: #fff;
+  }
+  #title{
+    color: #fff;
+  }
+}
+//####### SUBHEADER ########//
+#sub-header{
+  margin-top: -20px;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  text-align: center;
+  background-color: #FFCA28;
+  .headings{
+    color: #fff;
+    margin: 30px auto;
+    border-bottom: none;
+  }
+  .fa{
+    font-size: 30px;
+    color: #fff;
+    // text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
+  }
+  #sub-head-card{
+    margin-top: 20px;
+  }
+}
+//####### ABOUT #############//
+#about{
+  /* The image used */
+  margin-top: -20px;
+  margin-bottom: -20px;
+background-image: url("../images/mackbook-coffee.jpg");
+
+/* Full height */
+height: 100%;
+
+/* Create the parallax scrolling effect */
+background-attachment: fixed;
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+  #about-pane{
+    position: relative;
+    bottom: 100px;
+    background-color: white;
+    padding-bottom: 50px;
+  }
+}
+.read-more{
+  display: none;
+}
+
+//####### SKILSS #############//
+#skills{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #FFCA28;
+  .headings{
+    color: #fff;
+  }
+  #techs{
+    position: relative;
+    top: 40px;
+    padding-bottom: 30px;
+    background-color: #fff;
+    .headings{
+      color: #FFCA28;
+}
+    // #tech-row{
+    //   margin-top: 45px;
+    // }
+    #badge{
+      margin-bottom: 20px;
+      span{
+        margin-top: 10px;
+      }
+    }
+  }
+}
+//####### OTHER SKILLS #######//
+#other-skills-row{
+  // background: rgba(54, 25, 25, .7);
+  #other-skills-pic{
+    margin-top: 10%;
+  }
+}
+
+
+.meter {
+height: 10px;  /* Can be anything */
+background-color: #f7f5f5;
+position: relative;
+
+}
+.meter  span {
+display: block;
+height: 100%;
+background-color: rgb(43,194,83);
+background-image: linear-gradient(
+  center bottom,
+  rgb(43,194,83) 37%,
+  rgb(84,240,84) 69%
+);
+box-shadow:
+  inset 0 2px 9px  rgba(255,255,255,0.3),
+  inset 0 -2px 6px rgba(0,0,0,0.4);
+position: relative;
+overflow: hidden;
+}
+
+//####### TIMELINE ##########//
+.timeline .year{
+  color: #FFCA28;
+  font-weight: bold;
+  font-size: 16px;
+}
+.timeline ul li div {
+  position: relative;
+  bottom: 0;
+}
+
+.timeline ul li::after {
+  background: #fff;
+  transition: background .5s ease-in-out;
+}
+
+.timeline ul li.in-view::after {
+  background: #F45B69;
+}
+
+.timeline ul li div {
+  visibility: hidden;
+  opacity: 0;
+  transition: all .5s ease-in-out;
+}
+
+.timeline ul li:nth-child(odd) div {
+  transform: translate3d(50px,0,0);
+}
+
+.timeline ul li:nth-child(even) div {
+  transform: translate3d(-50px,0,0);
+}
+
+.timeline ul li.in-view div {
+  transform: none;
+  visibility: visible;
+  opacity: 1;
+}
