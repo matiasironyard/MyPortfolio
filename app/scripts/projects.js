@@ -31,7 +31,6 @@ var myProjects = {
         img: './images/inthemood.png'
     }]
 };
-
 module.exports = {
     myProjects: myProjects
 };

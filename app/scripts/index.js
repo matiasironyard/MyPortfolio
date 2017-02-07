@@ -1,6 +1,6 @@
 var myProjects = require('../scripts/projects.js').myProjects;
 var Handlebars = require('Handlebars');
-//####### MATERIALIZECSS SCRIPTS #############//
+//******* MATERIALIZECSS SCRIPTS *************//
 $(document).ready(function() {
     $('.parallax').parallax();
     $(".button-collapse").sideNav();
@@ -16,27 +16,25 @@ $(document).ready(function() {
         }, 800);
     });
 });
-//######## PROJECTS HANDLEBARS ##########//
-var source = $("#profileTemplate").html();
+//******** PROJECTS HANDLEBARS **********//
+var source = $("*profileTemplate").html();
 var template = Handlebars.compile(source);
-$('#portfolioContainer').html(template(myProjects));
-//######### SKILLS ############//
+$('*portfolioContainer').html(template(myProjects));
+//********* SKILLS ************//
 $(document).ready(function() {
-    $('#techs').waypoint(function() {
+    $('*techs').waypoint(function() {
         $(".meter > span").each(function() {
             var myWidth = $(this).data("width");
             $(this)
                 .animate({
-                    width: myWidth + "%", // or + "%" if fluid
+                    width: myWidth + "%",
                 }, 3000);
         });
     });
 });
-//######### TIMELINE  ############//
+//********* TIMELINE  ************//
 var timeline = function() {
     var items = document.querySelectorAll(".timeline li");
-    // var meters = document.querySelectorAll(".meter");
-    // console.log(rows);
     function isElementInViewport(el) {
         var rect = el.getBoundingClientRect();
         return (
@@ -46,7 +44,6 @@ var timeline = function() {
             rect.right <= (window.innerWidth || document.documentElement.clientWidth)
         );
     }
-
     function callbackFunc() {
         for (var i = 0; i < items.length; i++) {
             if (isElementInViewport(items[i])) {
@@ -54,7 +51,6 @@ var timeline = function() {
             }
         }
     }
-
     window.addEventListener("load", callbackFunc);
     window.addEventListener("scroll", callbackFunc);
     window.addEventListener("scroll", callbackFunc);
