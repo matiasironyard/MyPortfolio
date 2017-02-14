@@ -24,6 +24,13 @@ var myProjects = {
         link: 'https://matiasironyard.github.io/7.4-Majestic-Thai',
         img: './images/restaurant.png'
     }, {
+      title: 'Behind the Red Door',
+      Description: "A sample website for Karen Moore's Book, Behind The Red Door, published by the Advantage Media Group.",
+      readme: 'https://github.com/matiasironyard/Advantage-Sample/blob/master/README.md',
+      link: 'https://matiasironyard.github.io/Advantage-Sample/',
+      img: './images/AdvantageSample.jpg'
+
+    }, {
         title: 'In The Mood',
         description: 'A downtown Greenville restaurant search engine featuring a restaurant dashboard for business owners and a favorites page for users, powered by the Yelp Fusion API.',
         readme: 'https://github.com/matiasironyard/Final-Project-Main-Street/blob/master/README.md',
