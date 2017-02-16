@@ -140,20 +140,20 @@ body{
   /* The image used */
   margin-top: -20px;
   margin-bottom: -20px;
-background-image: url("../images/mackbook-coffee.jpg");
+  background-image: url("../images/mackbook-coffee.jpg");
 
-/* Full height */
-height: 100%;
+  /* Full height */
+  height: 100%;
 
-/* Create the parallax scrolling effect */
-background-attachment: fixed;
-background-position: center;
-background-repeat: no-repeat;
-background-size: cover;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   #about-pane{
     position: relative;
     bottom: 100px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 0.96);
     padding-bottom: 50px;
   }
 }
@@ -221,6 +221,27 @@ border-right: 5px solid #ffca28;
 //   inset 0 -2px 6px rgba(0,0,0,0.4);
 position: relative;
 overflow: hidden;
+}
+//#######PORTFOLIO########//
+#portfolio{
+  /* The image used */
+  margin-top: -20px;
+  margin-bottom: -20px;
+  background-image: url("../images/parallax.png");
+
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+//#######CONTACT#########//
+#contact{
+  padding-top: 100px;
+  padding-bottm: 50px;
 }
 //####### FOOTER #########//
 footer .page-footer{
