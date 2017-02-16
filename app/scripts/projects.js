@@ -25,7 +25,7 @@ var myProjects = {
         img: './images/restaurant.png'
     }, {
       title: 'Behind the Red Door',
-      Description: "A sample website for Karen Moore's Book, Behind The Red Door, published by the Advantage Media Group.",
+      description:  "A sample website for Karen Moore's Book, Behind The Red Door, published by the Advantage Media Group.",
       readme: 'https://github.com/matiasironyard/Advantage-Sample/blob/master/README.md',
       link: 'https://matiasironyard.github.io/Advantage-Sample/',
       img: './images/AdvantageSample.jpg'

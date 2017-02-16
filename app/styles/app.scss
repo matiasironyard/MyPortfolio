@@ -51,12 +51,13 @@ body{
   color: #FFCA28;
   // text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   padding-bottom: 20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.6);
 
 }
 #primary-text{
+  font-family: 'Raleway', sans-serif;
   line-height: 2;
   opacity: .87;
   font-size: 120%;
@@ -83,9 +84,9 @@ body{
 
 #header-row{
   position: relative;
-  top: 30%;
+  top: 18%;
   text-shadow: 1px 1px  2px #000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
   text-align: center;
   #header-first{
@@ -98,13 +99,28 @@ body{
     color: #fff;
   }
 }
+
+#parallax-container {
+     height: 600px;
+   }
 //####### SUBHEADER ########//
 #sub-header{
   margin-top: -20px;
   padding-top: 50px;
-  padding-bottom: 150px;
+  padding-bottom: 200px;
   text-align: center;
   background-color: #FFCA28;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/parallax.png');
+  background-size: cover;
+  color: #fff;
+  /* Full height */
+  height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   .headings{
     color: #fff;
     margin: 30px auto;
@@ -155,7 +171,7 @@ background-size: cover;
   }
   #techs{
     position: relative;
-    top: 40px;
+    // top: 40px;
     padding-bottom: 30px;
     background-color: #fff;
     .headings{
@@ -176,8 +192,12 @@ background-size: cover;
 #other-skills-row{
   // background: rgba(54, 25, 25, .7);
   #other-skills-pic{
-    margin-top: 10%;
+    margin-top: 50px;
   }
+}
+#blockquote{
+  border-left: 5px solid #ffca28;
+  background-color: #f7f5f5;
 }
 
 .meter {
@@ -190,14 +210,15 @@ position: relative;
 display: block;
 height: 100%;
 background-color: rgb(43,194,83);
-background-image: linear-gradient(
-  center bottom,
-  rgb(43,194,83) 37%,
-  rgb(84,240,84) 69%
-);
-box-shadow:
-  inset 0 2px 9px  rgba(255,255,255,0.3),
-  inset 0 -2px 6px rgba(0,0,0,0.4);
+border-right: 5px solid #ffca28;
+// background-image: linear-gradient(
+//   center bottom,
+//   rgb(43,194,83) 37%,
+//   rgb(84,240,84) 69%
+// );
+// box-shadow:
+//   inset 0 2px 9px  rgba(255,255,255,0.3),
+//   inset 0 -2px 6px rgba(0,0,0,0.4);
 position: relative;
 overflow: hidden;
 }
