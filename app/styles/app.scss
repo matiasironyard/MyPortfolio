@@ -67,6 +67,20 @@ body{
   opacity: .54;
   font-size: 110%;
 }
+.fixed-parallax{
+  /* Full height */
+  min-height: 100%;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 
 //####### NAV ##########//
 .nav-wrapper{
@@ -110,17 +124,8 @@ body{
   padding-bottom: 200px;
   text-align: center;
   background-color: #FFCA28;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/parallax.png');
-  background-size: cover;
   color: #fff;
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/parallax.png');
   .headings{
     color: #fff;
     margin: 30px auto;
@@ -141,15 +146,6 @@ body{
   margin-top: -20px;
   margin-bottom: -20px;
   background-image: url("../images/mackbook-coffee.jpg");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   #about-pane{
     position: relative;
     bottom: 100px;
@@ -228,15 +224,6 @@ overflow: hidden;
   margin-top: -20px;
   margin-bottom: -20px;
   background-image: url("../images/parallax.png");
-
-  /* Full height */
-  height: 100%;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 //#######CONTACT#########//
 #contact{
