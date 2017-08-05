@@ -12,12 +12,6 @@ var myProjects = {
         link: 'https://matiasironyard.github.io/4.4-Github-Profile',
         img: './images/github.png'
     }, {
-        title: 'Image Board',
-        description: 'A Backbone image board app that lets users create a picture blog.',
-        readme: 'https://github.com/matiasironyard/7.2-Image-Board-2/blob/master/README.md',
-        link: 'https://matiasironyard.github.io/7.2-Image-Board-2',
-        img: './images/imageboard.png'
-    }, {
         title: 'Menu & Order',
         description: 'A React restaurant menu that displays an order from selected items.',
         readme: 'https://github.com/matiasironyard/7.4-Majestic-Thai/blob/master/README.md',
@@ -29,13 +23,18 @@ var myProjects = {
       readme: 'https://github.com/matiasironyard/Advantage-Sample/blob/master/README.md',
       link: 'https://matiasironyard.github.io/Advantage-Sample/',
       img: './images/AdvantageSample.jpg'
-
     }, {
         title: 'In The Mood',
         description: 'A downtown Greenville restaurant search engine featuring a restaurant dashboard for business owners and a favorites page for users, powered by the Yelp Fusion API.',
         readme: 'https://github.com/matiasironyard/Final-Project-Main-Street/blob/master/README.md',
         link: 'https://matiasironyard.github.io/Final-Project-Main-Street',
         img: './images/inthemood.png'
+    }, {
+        title: 'React Redux SWAPI',
+        description: 'A React Redux powered SWAPI explorer .',
+        readme: 'https://github.com/matiasironyard/react-redux-starwars/blob/master/README.md',
+        link: 'https://matiasironyard.github.io/react-redux-starwars/#/',
+        img: './images/swapi.png'
     }]
 };
 module.exports = {
