@@ -35,7 +35,7 @@ var myProjects = {
       description: 'Artist and studio page designed for Eranga Goonetilleke.',
       techs: 'React and MaterializeCSS',
       readme: 'http://',
-      demoLink: 'www.erangagoonetilleke.com',
+      demoLink: 'http://www.erangagoonetilleke.com/',
       img: './images/studioeranga.png'
     }, {
       title: 'React Redux SWAPI',
