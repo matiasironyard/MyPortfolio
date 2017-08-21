@@ -31,12 +31,26 @@ var myProjects = {
       demoLink: 'https://matiasironyard.github.io/Final-Project-Main-Street',
       img: './images/inthemood.png'
     }, {
+      title: 'Artist Page',
+      description: 'Artist and studio page designed for Eranga Goonetilleke.',
+      techs: 'React and MaterializeCSS',
+      readme: 'http://',
+      demoLink: 'www.erangagoonetilleke.com',
+      img: './images/studioeranga.png'
+    }, {
       title: 'React Redux SWAPI',
       description: 'A React Redux powered SWAPI explorer .',
       readme: 'https://github.com/matiasironyard/react-redux-starwars/blob/master/README.md',
       demoLink: 'https://matiasironyard.github.io/react-redux-starwars/#/',
       img: './images/swapi.png'
-    }]
+    }, {
+      title: 'The Iron Yard',
+      description: 'Authored coding content and developed application projects for the front and back end courses. Contributed more than 90,000 lines of content and code on GitHub in the course catalog, focusing on the following: HTML and CSS, JavaScript, React, Redux, Node, Express, Mongo, PostgreSQL, SQL and noSQL, Sequelize, Unit testing, Git',
+      techs: 'HTML, CSS, JS, React, Redux',
+      readme: 'https://github.com/tiy-academics',
+      demoLink: 'http://www.theironyard.com',
+      img: './images/theironyard.png'
+    } ]
 };
 module.exports = {
   myProjects: myProjects
