@@ -51,6 +51,7 @@ body{
   color: #FFCA28;
   // text-shadow: 0px 1px 2px rgba(0, 0, 0, 0.6);
   text-transform: uppercase;
+  text-shadow: 1px 2px 2px hsla(0, 0%, 0%, 0.61);
   font-family: 'Fjalla One', sans-serif;
   padding-bottom: 20px;
   border-bottom: 2px solid rgba(0, 0, 0, 0.6);
@@ -98,7 +99,7 @@ body{
 
 #header-row{
   position: relative;
-  top: 18%;
+  top: 30%;
   text-shadow: 1px 1px  2px #000;
   font-family: 'Fjalla One', sans-serif;
   font-weight: bold;
@@ -125,7 +126,7 @@ body{
   text-align: center;
   background-color: #FFCA28;
   color: #fff;
-  background-image: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/parallax.png');
+  background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url('../images/materialyellow.jpg');
   .headings{
     color: #fff;
     margin: 30px auto;
@@ -145,11 +146,11 @@ body{
   /* The image used */
   margin-top: -20px;
   margin-bottom: -20px;
-  background-image: url("../images/mackbook-coffee.jpg");
+  background-image: url("../images/materialyellow.jpg");
   #about-pane{
     position: relative;
     bottom: 100px;
-    background-color: rgba(255, 255, 255, 0.96);
+    background-color: rgba(255, 255, 255, 0.85);
     padding-bottom: 50px;
   }
 }
@@ -205,7 +206,7 @@ position: relative;
 .meter  span {
 display: block;
 height: 100%;
-background-color: rgb(43,194,83);
+background-color: #777777;
 border-right: 5px solid #ffca28;
 // background-image: linear-gradient(
 //   center bottom,
@@ -223,7 +224,7 @@ overflow: hidden;
   /* The image used */
   margin-top: -20px;
   margin-bottom: -20px;
-  background-image: url("../images/parallax.png");
+  background-image: url("../images/materialgrey.jpg");
 }
 //#######CONTACT#########//
 #contact{
