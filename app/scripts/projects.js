@@ -13,11 +13,11 @@ var myProjects = {
       demoLink: 'https://matiasironyard.github.io/4.4-Github-Profile',
       img: './images/github.png'
     }, {
-      title: 'Menu & Order',
+      title: 'Online Menu',
       description: 'A React restaurant menu that displays an order from selected items.',
-      readme: 'https://github.com/matiasironyard/7.4-Majestic-Thai/blob/master/README.md',
-      demoLink: 'https://matiasironyard.github.io/7.4-Majestic-Thai',
-      img: './images/restaurant.png'
+      readme: 'https://github.com/matiasironyard/online-menu/blob/master/README.md',
+      demoLink: 'https://matiasironyard.github.io/online-menu/',
+      img: './images/onlinemenu.png'
     }, {
       title: 'Behind the Red Door',
       description: 'A sample website for Karen Moore\'s Book, Behind The Red Door, published by the Advantage Media Group.',
